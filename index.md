@@ -7,6 +7,8 @@ title: ZhangJing Mok's Homepage
 
 Hello! I'm Mok, a passionate individual with a love for coding, gaming, and problem-solving. This page will showcase my background, interests, and some of my academic pursuits.
 
+![Profile Image](assets/images/profile.jpg)
+
 ## Academic Explorer 🎓
 
 I hold an Degree in Computer Science from Universiti Tunku Abdul Rahman, specializing in Mobile Application Development. 
