@@ -1,8 +1,4 @@
 ---
 layout: default
-title: About Me
+title: ZhangJing Mok's CV
 ---
-
-# About Me
-
-This is my about page. Welcome!
