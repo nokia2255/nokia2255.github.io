@@ -3,7 +3,7 @@ layout: default
 title: ZhangJing Mok's CV
 ---
 
-Here's where you can learn more about me.
+Here is where you can learn more about me.
 
 <style>
     /* ===== 全局样式 ===== */
