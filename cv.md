@@ -167,8 +167,8 @@ Here is where you can learn more about me.
         <img src="{{ site.baseurl }}/images/profile_pic.jpg" alt="ZhangJing Mok" class="profile-img">
         <div class="hero-text">
             <h1>ZhangJing Mok</h1>
-            <p>Mobile Developer | Problem Solver | Tech Enthusiast</p>
-            <p>Specializing in Mobile Application Development with a passion for creating intuitive user experiences and solving complex problems through code.</p>
+            <p>Solutions Architect | Problem Solver | Data Analyst</p>
+            <p>Specializing in Convergent Billing System and solving complex problems.</p>
         </div>
     </section>
     <!-- 教育背景 -->
@@ -179,7 +179,7 @@ Here is where you can learn more about me.
                 <div class="timeline-date">2019 - 2023</div>
                 <h3>Universiti Tunku Abdul Rahman</h3>
                 <p>Bachelor of Computer Science (Mobile Application Development)</p>
-                <p>GPA: 3.8/4.0 | Dean's List for 5 semesters</p>
+                <p>GPA: 3.6/4.0</p>
             </div>
         </div>
     </section>
@@ -190,7 +190,7 @@ Here is where you can learn more about me.
             <div class="skill-card">
                 <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
                 <h3>Mobile Development</h3>
-                <p>Flutter, Android, iOS, React Native</p>
+                <p>Flutter, Android, iOS</p>
             </div>
             <div class="skill-card">
                 <div class="skill-icon"><i class="fas fa-code"></i></div>
@@ -199,13 +199,13 @@ Here is where you can learn more about me.
             </div>
             <div class="skill-card">
                 <div class="skill-icon"><i class="fas fa-server"></i></div>
-                <h3>Backend</h3>
-                <p>Node.js, Firebase, MongoDB</p>
+                <h3>Data Analysis</h3>
+                <p>SQL, Excel, Python</p>
             </div>
             <div class="skill-card">
                 <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
                 <h3>Tools</h3>
-                <p>Git, Docker, Figma</p>
+                <p>Dbeaver, Pycharm, SoapUi</p>
             </div>
         </div>
     </section>
@@ -215,45 +215,24 @@ Here is where you can learn more about me.
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-date">2022 - Present</div>
-                <h3>Mobile Developer @ TechSolutions Inc.</h3>
+                <h3>Huawei Solutions Architect </h3>
                 <ul>
-                    <li>Developed cross-platform mobile app with Flutter</li>
-                    <li>Improved app performance by 40%</li>
-                    <li>Implemented CI/CD pipeline</li>
+                    <li>Design the solution of the delivery project (mainly focusing on convergent billing system(CBS))</li>
+                    <li>Led two interns and some juniors, guiding them through hand-on tasks and fostering their professional development in telco industry</li>
                 </ul>
             </div>
             <div class="timeline-item">
                 <div class="timeline-date">2021 - 2022</div>
-                <h3>Intern @ Digital Creations</h3>
+                <h3>Huawei AP Project Engineer Intern </h3>
                 <ul>
-                    <li>Assisted in Android app development</li>
-                    <li>Conducted user testing sessions</li>
+                    <li>Review site installation quality remotely</li>
+                    <li>Review site subcontractors safety remotely</li>
+                    <li>Audit site installation and safety remotely</li>
+                    <li>Support data analysis on rejected quality and safety checks</li>
+                    <li>Generate daily report by using Python programming language</li>
+                    <li>Guide and Contact subcontractor for rectification of site installation</li>
                 </ul>
             </div>
         </div>
     </section>
-    <!-- 兴趣爱好 -->
-    <section class="interests-section">
-        <h2>❤️ Interests</h2>
-        <div class="interest-tags">
-            <span class="interest-tag">Mobile UI/UX</span>
-            <span class="interest-tag">Augmented Reality</span>
-            <span class="interest-tag">Gaming</span>
-            <span class="interest-tag">Photography</span>
-            <span class="interest-tag">Hiking</span>
-        </div>
-    </section>
-    <!-- 联系区块 -->
-    <section style="text-align: center; margin-top: 4rem;">
-        <h2>Let's Connect!</h2>
-        <p>Feel free to reach out for collaborations or just a friendly chat</p>
-        <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
-            <a href="mailto:your.email@example.com" style="font-size: 1.5rem;"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/yourusername" style="font-size: 1.5rem;"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/yourprofile" style="font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </section>
 </div>
-
-<!-- 添加 Font Awesome -->
-<script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
