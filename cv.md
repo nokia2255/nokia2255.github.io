@@ -1,4 +1,4 @@
 ---
 layout: default
-title: ZhangJing Mok's CV
+title: CV
 ---
