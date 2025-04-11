@@ -3,51 +3,83 @@
 <head>
     <title>{{ page.title }}</title>
     <style>
-    /* 酷炫导航栏样式 */
+    /* 全局重置 */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* 导航栏容器 */
     .navbar {
-        background: linear-gradient(135deg, #6e8efb, #a777e3); /* 渐变背景 */
-        padding: 15px 0;
-        text-align: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 底部阴影 */
-        border-radius: 0 0 15px 15px; /* 圆角底部 */
+        background: linear-gradient(135deg, #6e8efb, #a777e3);
+        padding: 15px 2rem; /* 增加左右内边距 */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex; /* 改为flex布局 */
+        justify-content: space-between; /* 左右分开 */
+        align-items: center; /* 垂直居中 */
     }
 
-    .navbar a {
+    /* logo样式 */
+    .logo {
+        color: white;
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-decoration: none;
+        margin-right: auto; /* 自动占据左侧空间 */
+    }
+
+    /* 导航链接容器 */
+    .nav-links {
+        display: flex;
+    }
+
+    /* 导航链接样式 */
+    .nav-links a {
         color: white;
         text-decoration: none;
         font-weight: 600;
         font-size: 16px;
-        margin: 0 15px;
+        margin: 0 10px; /* 调整间距 */
         padding: 8px 15px;
-        border-radius: 20px; /* 圆角按钮 */
+        border-radius: 20px;
         transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
     }
 
-    /* 悬停效果：背景色变化 + 轻微放大 */
-    .navbar a:hover {
+    /* 悬停效果 */
+    .nav-links a:hover {
         background-color: rgba(255, 255, 255, 0.2);
         transform: translateY(-3px);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-    /* 当前页面高亮提示 */
-    .navbar a.active {
+    /* 当前页面高亮 */
+    .nav-links a.active {
         background-color: rgba(255, 255, 255, 0.3);
-        font-weight: bold;
     }
 
-    /* 响应式设计：小屏幕调整 */
+    /* 响应式设计 */
     @media (max-width: 768px) {
-        .navbar a {
-            margin: 0 8px;
+        .navbar {
+            flex-direction: column;
+            padding: 15px 1rem;
+        }
+        .logo {
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+        .nav-links {
+            width: 100%;
+            justify-content: space-around;
+        }
+        .nav-links a {
+            margin: 0;
             padding: 6px 12px;
             font-size: 14px;
         }
     }
-</style>
+    </style>
 </head>
 <body>
     {% include navbar.html %}
