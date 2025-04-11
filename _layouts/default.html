@@ -2,7 +2,52 @@
 <html>
 <head>
     <title>{{ page.title }}</title>
-    <style>/* 导航栏 CSS */</style>
+    <style>
+    /* 酷炫导航栏样式 */
+    .navbar {
+        background: linear-gradient(135deg, #6e8efb, #a777e3); /* 渐变背景 */
+        padding: 15px 0;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 底部阴影 */
+        border-radius: 0 0 15px 15px; /* 圆角底部 */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0 15px;
+        padding: 8px 15px;
+        border-radius: 20px; /* 圆角按钮 */
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+    }
+
+    /* 悬停效果：背景色变化 + 轻微放大 */
+    .navbar a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        transform: translateY(-3px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* 当前页面高亮提示 */
+    .navbar a.active {
+        background-color: rgba(255, 255, 255, 0.3);
+        font-weight: bold;
+    }
+
+    /* 响应式设计：小屏幕调整 */
+    @media (max-width: 768px) {
+        .navbar a {
+            margin: 0 8px;
+            padding: 6px 12px;
+            font-size: 14px;
+        }
+    }
+</style>
 </head>
 <body>
     {% include navbar.html %}
