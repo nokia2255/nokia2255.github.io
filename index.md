@@ -7,7 +7,6 @@ title: ZhangJing Mok's Homepage
 
 Hello! I'm Mok, a passionate individual with a love for coding, gaming, and problem-solving. This page will showcase my background, interests, and some of my academic pursuits.
 
-![Profile Image](/images/profile_pic.jpg)
 ![Profile Photo]({{ site.baseurl }}/images/profile_pic.jpg)
 ## Academic Explorer 🎓
 
